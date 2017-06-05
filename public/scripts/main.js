@@ -51,8 +51,8 @@ $(document).ready(function() {
         var year = a.getFullYear();
         var month = months[a.getMonth()];
         var date = a.getDate();
-        var hour = a.getHours();
-        var min = a.getMinutes();
+        var hour = ('0' + a.getHours()).slice(-2);
+        var min = ('0' + a.getMinutes()).slice(-2);
         var sec = a.getSeconds();
         var time = date + ' ' + month + ' ' + hour + ':' + min;
         return time;

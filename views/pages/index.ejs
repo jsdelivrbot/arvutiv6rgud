@@ -7,14 +7,15 @@
 <body>
 
 <div class="jumbotron text-center">
-  <div class="container">
+  <div class="container container-fluid">
     <a href="/" class="lang-logo">
       <img src="/lang-logo.png">
     </a>
     <h1>Arvutivõrgud tulemuste teated</h1>
     <h3>2017 kevad</h3>
-    <table class="stats">
-      <tbody>
+    <div class="table-responsive">
+      <table class="table borderless stats">
+        <tbody>
         <tr>
           <td>Tulemuste leht</td>
           <td><a href="https://www.ttu.ee/public/i/infotehnoloogia-teaduskond/Instituudid/automaatikainstituut/oppeained/ReinP/Kontrollerid/ISP0040_Hinne_nimedeta_2017_kevad.pdf" target="_blank">link</a></td>
@@ -32,7 +33,8 @@
           <td id="updTS">Loading...</td>
         </tr>
       </tbody>
-    </table>
+      </table>
+    </div>
     <button id="sub" type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-flash"></span> <text>Teavita mind!</text></button>
     <a type="button" class="btn btn-lg btn-primary" target="_blank" href="https://github.com/dnws/arvutiv6rgud"><span class="glyphicon glyphicon-download"></span> Lähtekood GitHub'is</a>
     <div id="notif" style="display: none" class="alert alert-danger">
