@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/lang-logo.png">
+    </a>
+    <h1>Arvutivõrgud tulemuste teated</h1>
+    <h3>2017 kevad</h3>
+    <table class="stats">
+      <tbody>
+        <tr>
+          <td>Tulemuste leht</td>
+          <td><a href="https://www.ttu.ee/public/i/infotehnoloogia-teaduskond/Instituudid/automaatikainstituut/oppeained/ReinP/Kontrollerid/ISP0040_Hinne_nimedeta_2017_kevad.pdf" target="_blank">link</a></td>
+        </tr>
+        <tr>
+          <td>Inimesi kes ootab</td>
+          <td id="online">Loading...</td>
+        </tr>
+        <tr>
+          <td>Viimati uuendatud</td>
+          <td id="modTS">Loading...</td>
+        </tr>
+        <tr>
+          <td>Viimati kontrollitud</td>
+          <td id="updTS">Loading...</td>
+        </tr>
+      </tbody>
+    </table>
+    <button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-flash"></span> Subscribe</button>
+    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/dnws/"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+  </div>
+</div>
+
+</body>
+</html>
