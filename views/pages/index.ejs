@@ -6,7 +6,6 @@
 
 <body>
 
-
 <div class="jumbotron text-center">
   <div class="container">
     <a href="/" class="lang-logo">
@@ -34,8 +33,12 @@
         </tr>
       </tbody>
     </table>
-    <button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-flash"></span> Subscribe</button>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/dnws/"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+    <button id="sub" type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-flash"></span> <text>Teavita mind!</text></button>
+    <a type="button" class="btn btn-lg btn-primary" target="_blank" href="https://github.com/dnws/arvutiv6rgud"><span class="glyphicon glyphicon-download"></span> Lähtekood GitHub'is</a>
+    <div id="notif" style="display: none" class="alert alert-danger">
+      <a class="close">×</a> 
+      <strong>Whoops!</strong> Teavitusi pole võimalik sisselülitada, enne <a target="_blank" href="https://support.google.com/chrome/answer/3220216">seadistage teavitusi</a> brauseris.
+    </div>
   </div>
 </div>
 

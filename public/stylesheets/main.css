@@ -47,3 +47,7 @@ body {
     float: none;
     text-align: left;
 }
+
+.alert {
+    margin: 20px auto;
+}
